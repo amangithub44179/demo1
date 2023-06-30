@@ -1,0 +1,118 @@
+header{
+    background-color: #f5ba13;
+    margin:auto -16px;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 black(0 0 0 0.3);
+}
+
+header h1{
+    color: white;
+    font-family: "McLaren",cursive;
+    font-weight: 200;
+}
+
+footer{
+    position: absolute;
+    text-align: center;
+    bottom: 0%;
+    width: 100%;
+    height: 2.5rem;
+}
+
+footer p{
+    color: #ccc;
+}
+.note{
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2pc 5px #ccc;
+    padding: 10px;
+    width: 240px;
+    margin: 16px;
+    float: left;
+}
+
+.name{
+    font-size: 2rem;
+    color: #2d3436;
+    display: flex;
+    flex: 1;
+    margin: 10% 20px 0;
+}
+
+
+.card img{
+    margin: 30px 20px 0 0 ;
+}
+
+.circle-img{
+    border-radius: 50%;
+    border: 7px solid#fff;
+    width: 80px;
+    height: 80px;
+    float: right;
+    position:unset;
+    display:flex;
+    padding-bottom: 1%;
+
+}
+
+.cardd{ 
+    background-color: aqua;
+    border-radius: 5%;
+    width:20%;
+    
+    box-shadow: 10% black;
+}
+
+.info{
+    margin-left: 2% ;
+    margin-right: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+}
+.bottom{
+    background-color: aquamarine;
+    margin-top: 15%;
+    margin-bottom: 20%;
+}
+
+.topone{
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2pc 5px #ccc;
+    padding: 10px;
+    width: 240px;
+    margin: 16px;
+    float: left;
+
+}
+
+.toptwo{
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2pc 5px #ccc;
+    padding: 10px;
+    width: 240px;
+    margin: 16px;
+    float: left;
+}
+
+.buttong{
+    background-color: #444141;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: none;
+
+}
+.buttong:hover {
+    background-image: linear-gradient(90deg, #53cbef 0%, #dcc66c 50%, #ffa3b6 75%, #53cbef 100%);
+    animation: slidernbw 5s linear infinite;
+    color: #000;
+   }
